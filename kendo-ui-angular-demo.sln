@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kendo-ui-angular-demo", "kendo-ui-angular-demo\kendo-ui-angular-demo.csproj", "{D58F8A6D-56B5-4D61-B2F5-BC96465638D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D58F8A6D-56B5-4D61-B2F5-BC96465638D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58F8A6D-56B5-4D61-B2F5-BC96465638D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58F8A6D-56B5-4D61-B2F5-BC96465638D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58F8A6D-56B5-4D61-B2F5-BC96465638D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE336B1D-455D-4B8D-AF60-B5A5682F96FC}
+	EndGlobalSection
+EndGlobal
