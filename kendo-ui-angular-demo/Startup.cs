@@ -22,11 +22,11 @@ namespace kendo_ui_angular_demo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            // connection to backend provided in original zip
             var connection = @"Server=(localdb)\\mssqllocaldb;Database=TelerikKendoUIDemo01;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
 
-            //db approach 3 : code-first
+            // code-fist db creation
             //services.AddDbContext<ApplicationDbContext>(options =>
             //    options.UseSqlServer(
             //        Configuration.GetConnectionString("DefaultConnection")
