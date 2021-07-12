@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace kendo_ui_angular_demo.Data.Migrations
+namespace kendo_ui_angular_demo.Migrations
 {
     public partial class dbinit : Migration
     {
